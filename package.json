@@ -1,6 +1,13 @@
 {
   "name": "overwolf-hots-talents-server",
+  "description": "Server for the OverWolf HOTS Talents Addon that saves builds and scrapes talents from HOTS Logs",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zweer/overwolf-hots-talents-server"
+  },
+  "license": "MIT",
+  "author": "Niccolò Olivieri <niccolo@olivieriachille.com>",
   "scripts": {
     "start": "node ./bin/www"
   },
