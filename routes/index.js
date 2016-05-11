@@ -9,4 +9,12 @@ router.get('/', function(req, res) {
   res.json(packageObj);
 });
 
+router.post('/user/herotalents', function (req, res) {
+  console.log(req.body);
+
+  res.json({
+    success: true
+  })
+});
+
 module.exports = router;
